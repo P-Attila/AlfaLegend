@@ -100,6 +100,10 @@ color: #fff;
 text-decoration: none;
 }
 
+.multi-collapse a:hover{
+    border-color: #E0B524;
+    }
+
 .services-card {
     border: 1px solid #ddd;
     border-radius: 10px;
