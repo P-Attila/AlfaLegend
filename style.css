@@ -131,6 +131,12 @@ footer {
     margin: -2px 8px 0 0;
 }
 
+.collapse p img {
+    height: 22px;
+    width: 22px;
+    margin: -2px 8px 0 0;
+}
+
 footer {
     padding: 40px 0;
 }
