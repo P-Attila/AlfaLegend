@@ -180,14 +180,14 @@ footer strong {
 .wave {
     position: relative;
     z-index: -1;
-    bottom: -2px;
+    bottom: -8px;
 }
 
 .wave-2 {
     transform:rotate(180deg);
     position: relative;
     z-index: -1;
-    top: -2px;
+    top: -8px;
 }
 
 @media only screen and (max-width: 991px) {
