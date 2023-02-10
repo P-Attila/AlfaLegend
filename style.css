@@ -216,4 +216,8 @@ footer strong {
     .navbar a {
         font-size:30px;
     }
+
+    .navbar-toggler {
+        margin-right: 12px;
+    }
 }
