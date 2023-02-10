@@ -93,9 +93,9 @@ footer {
 
 /* ----- SERVICES ----- */
 
-.multi-collapse a{
+.cta-btn {
 border: 1px solid white;
-padding: 10px 15px;
+padding: 10px 25px;
 border-radius: 50px;
 display: inline-flex;
 place-items: center;
@@ -103,8 +103,13 @@ place-content: center;
 color: #fff;
 text-decoration: none;
 }
+.cta-btn img {
+    height: 22px;
+    width: 22px;
+    margin-right: 8px;
+}
 
-.multi-collapse a:hover{
+.cta-btn:hover{
     border-color: #E0B524;
     }
 
