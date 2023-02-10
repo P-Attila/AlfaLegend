@@ -45,12 +45,13 @@ h1 span::after {
 
 @keyframes reducetime {
     0% {
-      width: 0;
+        width: 0;
     }
+
     100% {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
 
 h2 {
     margin-bottom: 32px;
@@ -94,24 +95,26 @@ footer {
 /* ----- SERVICES ----- */
 
 .cta-btn {
-border: 1px solid white;
-padding: 10px 25px;
-border-radius: 50px;
-display: inline-flex;
-place-items: center;
-place-content: center;
-color: #fff;
-text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    display: inline-flex;
+    place-items: center;
+    place-content: center;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
 }
+
 .cta-btn img {
     height: 22px;
     width: 22px;
     margin-right: 8px;
 }
 
-.cta-btn:hover{
+.cta-btn:hover {
     border-color: #E0B524;
-    }
+}
 
 .services-card {
     border: 1px solid #ddd;
@@ -189,7 +192,7 @@ footer strong {
 }
 
 .wave-2 {
-    transform:rotate(180deg);
+    transform: rotate(180deg);
     position: relative;
     z-index: -1;
     top: -8px;
@@ -197,13 +200,20 @@ footer strong {
 
 @media only screen and (max-width: 991px) {
     .services-card button {
-        cursor:text !important;
+        cursor: text !important;
     }
+
     .services-card .collapse:not(.show) {
         display: block;
     }
 
     .services-card .collapsing {
         transition: none;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .navbar a {
+        font-size:30px;
     }
 }

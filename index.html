@@ -14,7 +14,7 @@
 <body class="bg-dark" data-bs-theme="dark">
     <header>
         <nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
-            <div class="container">
+            <div class="container d-flex flex-nowrap">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo-w.png" alt="asd">
                     AlfaLegend
@@ -23,7 +23,7 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav" onclick=closeNav() >
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav" onclick=closeNav()>
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="#miert-mi">Miért mi</a>
@@ -54,9 +54,12 @@
                             szervezetek
                             teljes körű könyvelési szolgáltatásával várja minden leendő partnerét.
                         </p>
-                        <p>
-                            <a class="cta-btn" href="mailto:hello@alfalegend.hu"><img src="images/letter.svg" alt="Email"> Írj most!</a>
-                        </p>
+                        <div class="d-flex flew-wrap">
+                            <a class="cta-btn me-3" href="tel:06701710000"><img src="images/phone.svg" alt="Telefon">
+                                Hívj most!</a>
+                            <a class="cta-btn" href="mailto:hello@alfalegend.hu"><img src="images/letter.svg"
+                                    alt="Email"> Írj most!</a>
+                        </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <img src="images/hero.svg" alt="">
@@ -74,11 +77,17 @@
                         <p>Alkalmazkodunk, nincs bonyolult regisztráció.<br /><br />
 
                             Érthető kommunikációnkkal és gyors ügyintézéssel segítjük ügyfeleinket.<br /><br />
-                            Online Irodaházunk bárhonnan kényelmesen elérhető ügyfeleink számára és megspóroljuk a felesleges találkozókat.<br /><br />
-                            A munkafolyamataink átláthatóak, pontosan követhetők és egyedi igények alapján rendszeresen tájékoztatjuk a megbízóinkat.</p>
-                            <p>
-                                <a class="cta-btn" href="mailto:hello@alfalegend.hu"><img src="images/letter.svg" alt="Email"> Írj most!</a>
-                            </p>
+                            Online Irodaházunk bárhonnan kényelmesen elérhető ügyfeleink számára és megspóroljuk a
+                            felesleges találkozókat.<br /><br />
+                            A munkafolyamataink átláthatóak, pontosan követhetők és egyedi igények alapján rendszeresen
+                            tájékoztatjuk a megbízóinkat.</p>
+
+                        <div class="d-flex flew-wrap">
+                            <a class="cta-btn me-3" href="tel:06701710000"><img src="images/phone.svg" alt="Telefon">
+                                Hívj most!</a>
+                            <a class="cta-btn" href="mailto:hello@alfalegend.hu"><img src="images/letter.svg"
+                                    alt="Email"> Írj most!</a>
+                        </div>
                     </div>
                     <div class="col-lg-5 order-lg-1">
                         <img src="images/team.svg" alt="">
@@ -107,17 +116,25 @@
                                 <li><strong>" KATA kényelem ":</strong><br />Induló ár: 12.900 Ft havonta</li>
                                 <li><strong>" Alkudozó ": Ha mersz alkudni, mi abban is partnerek
                                         leszünk.</strong><br /> Egyedi ár igénylése: 06 70/ 171 0000</li>
-                                <p><a class="cta-btn" href="tel:06701710000"><img src="images/phone.svg" alt="Telefon"> Hívj most!</a>
-                                </p>
+
+                                <div class="d-flex flew-wrap mb-3">
+                                    <a class="cta-btn me-3" href="tel:06701710000"><img src="images/phone.svg"
+                                            alt="Telefon"> Hívj most!</a>
+                                    <a class="cta-btn" href="mailto:hello@alfalegend.hu"><img src="images/letter.svg"
+                                            alt="Email"> Írj most!</a>
+                                </div>
 
                                 <li><strong>Egyéni vállalkozók:</strong><br />Induló ár: 9.900 Ft havonta</li>
-                                <li><strong>Betéti társaságok és non-profit vállalkozások:</strong><br />Induló ár: 29.900 Ft
+                                <li><strong>Betéti társaságok és non-profit vállalkozások:</strong><br />Induló ár:
+                                    29.900 Ft
                                     havonta</li>
-                                <li><strong>Korlátolt felelősségű társaságok:</strong><br />Induló ár: 49.900 Ft havonta</li>
+                                <li><strong>Korlátolt felelősségű társaságok:</strong><br />Induló ár: 49.900 Ft havonta
+                                </li>
                                 <li><strong>Digitális Vállalkozó Csomag:</strong><br /> Induló ár: 79.900 Ft havonta
                                 </li>
                                 <li><strong>Online Management Csomag:</strong><br /> Induló ár: 139.900 Ft havonta</li>
-                                <li><strong>Zártkörűen működő részvénytársaságok:</strong><br />Induló ár: 49.900 Ft havonta</li>
+                                <li><strong>Zártkörűen működő részvénytársaságok:</strong><br />Induló ár: 49.900 Ft
+                                    havonta</li>
                                 <li><strong>SOS Válságkezelés:</strong><br />112.000 Ft naponta</li>
                                 <p>( Akkor, ha úgy érzed nagy a baj. 24 óra csak érted! Átnézzük azt, amit problémának
                                     érzel és még akár többet is. Garantált a Happy End itt is, igaz másként) </p>
@@ -156,8 +173,14 @@
                                 <h3>Munkavédelem</h3>
                             </button>
                             <ul class="collapse multi-collapse" id="szekhely-card">
-                                <li><strong>Munkavédelmi oktatás kockázatértékelés:</strong><br /> Egyedi ár igénylése: 06 70/ 171 0000</li>
-                                <p><a class="cta-btn" href="tel:06701710000"><img src="images/phone.svg" alt="Telefon"> Hívj most!</a>
+                                <li><strong>Munkavédelmi oktatás kockázatértékelés:</strong><br /> Egyedi ár igénylése:
+                                    06 70/ 171 0000</li>
+                                <div class="d-flex flew-wrap">
+                                    <a class="cta-btn me-3" href="tel:06701710000"><img src="images/phone.svg"
+                                            alt="Telefon"> Hívj most!</a>
+                                    <a class="cta-btn" href="mailto:hello@alfalegend.hu"><img src="images/letter.svg"
+                                            alt="Email"> Írj most!</a>
+                                </div>
                             </ul>
                         </article>
                     </div>
