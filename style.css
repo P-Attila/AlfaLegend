@@ -59,6 +59,10 @@ h2 {
     display: inline-block;
 }
 
+.navbar {
+    padding: 0;
+}
+
 .navbar a {
     color: #fff;
 }
